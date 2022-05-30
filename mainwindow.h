@@ -17,5 +17,14 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    void openFilePressed();
+
+    void recordPressed();
+    void stopRecordingPressed();
+    void playPressed();
+    void savePressed();
+
+    void exitPressed();
 };
 #endif // MAINWINDOW_H
